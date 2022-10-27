@@ -39,8 +39,18 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    transition: 0.5s;
+    text-shadow: 3px 3px 20px rgba(0, 0, 0, 0.3);
+}
+
 header {
     position: relative;
+}
+
+
+ul{
+    display: flex;
 }
 
 nav{
@@ -48,9 +58,6 @@ nav{
     margin: 44px auto;
     padding: 0px 30px;
     position: absolute;
-}
-ul{
-    display: flex;
 }
 
 li{
@@ -72,6 +79,12 @@ nav ul{
     align-items: center;
     transform: translateX(600px);
 }
+
+nav ul li:hover:last-child{
+    transition: 0.3s;
+    rotate: 90deg;
+}
+
 
 .main-slide h1{
     position: absolute;
@@ -100,6 +113,7 @@ nav ul{
 
 .sub-slide-right h3{
     text-align: right;
+    position: absolute;
     transform: translate(525px, 34px);
 }
 
@@ -117,6 +131,12 @@ nav ul{
     max-width: 25%;
     align-items: center;
     position: relative;
+}
+
+.content-box:hover{
+    transition: 0.4s;
+    color: #fff;
+    background: rgba(51,51,153,255);
 }
 
 .content-title h4{
