@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    max-width: 1728px;
+    margin: auto;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 105px;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+}
+h3{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #fff;
+}
+
+h4{
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 34px;
+}
+
+header {
+    position: relative;
+}
+
+nav{
+    display: flex;
+    margin: 44px auto;
+    padding: 0px 30px;
+    position: absolute;
+}
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+}
+
+nav ul li{
+    color: #000000;
+    font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    transform: translateX(600px);
+}
+
+
+.main-slide h1{
+    position: absolute;
+    transform: translate(145px, -630px);
+}
+
+
+.sub-slide{
+    display: flex;
+}
+
+.sub-slide-content h3{
+    position: absolute;
+    max-width: 310px;
+}
+
+.sub-slide-left h3{
+    margin-top: 34px;
+    margin-left: 42px;
+}
+
+.sub-slide-right h3{
+    text-align: right;
+    transform: translate(525px, 34px);
+    
+}
+
+.main-container h2{
+    margin: 32px;
+}
+
+.content-section{
+    display: flex;
+    flex-flow: wrap;
+}
+
+.content-box{
+    display: flexbox;
+    max-width: 25%;
+    align-items: center;
+    position: relative;
+}
+
+.content-title h4{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 400px);
+}
+
+footer{
+    margin-top: 74px;
+    margin-bottom: 31px;
+    padding: 0px 30px;
+}
+
+.socials ul{
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+
+.socials ul li h2:first-child{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #999999;
+}
+
+.footer-content{
+    margin-top: 88px;
+    display: flex;
+    gap: 35px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    align-items: center;
+    text-align: left;
+    color: #666666;
+}
+
+.footer-content ul{
+    margin-top: 8px;
+    margin-left: -15px;
+}
+.footer-content ul li{
+    padding: 0 15px;
+    border-right: 1px rgba(0, 0, 0, 0.3) solid;
+}
+.footer-content ul li:last-child {
+    border-right: none;
+  }
+
+.footer-content-right img{
+    max-width: 86px;
+    max-height: 12.79px;
+}
